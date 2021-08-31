@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+table{
+  border-collapse: collapse;
+  width: 60%;
+  margin: 30px auto;  
+  font-size: 14px;
+  text-align: left;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 0.3em;
+  overflow: hidden;
+}
+
+th{
+  padding-right: 20px;
+  padding-top: 10px;
+  
+}
+
+thead{
+  background-color: rgb(17, 103, 179);
+  color: white;
+}
+
+.model{
+  padding:0px 20px ;
+  text-align: center;
+}
+
+.center-data{
+  padding:0px 20px;
+  vertical-align: middle;
+}
+
+td{
+  vertical-align: bottom;
+  padding: 2px 2px 5px 2px;
+}
+
+.stage{
+  padding: 0 2px;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+}
+
+thead th{
+  vertical-align:bottom;
+  text-align:center;
+}
+
+.time{
+  text-align: right;
+}
+
+.status{
+  text-align: left;
+}
+
+.align-mid{
+  padding-bottom: 10px;
+}
+span{
+  width:18%;
+  display: inline-flex;
+  text-align: left;
+  align-items: flex-end;
+  padding: 0px 5px;
+}
+.finished{
+ background-color: rgb(41, 155, 41);
+}
+
+.waiting{
+ background-color: rgba(238, 241, 60, 0.993);
+}
+
+.nothing{
+  background-color: white;
+}

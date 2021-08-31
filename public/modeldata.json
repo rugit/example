@@ -1,0 +1,104 @@
+{
+    "models" : 
+        [{
+            "model_id" : "Model 1",
+            "architecture" : "Lambda",
+            "process" : {
+                "modelling" : {
+                    "start_time" : "12:20",
+                    "end_time" : "12:14",
+                    "estimated_time" : "12:40",
+                    "stage" : {
+                        "Added" : "1",
+                        "Started" : "1",
+                        "Downloaded" : "0",
+                        "Modelled" : "1",
+                        "Done" : "None"
+                    },
+                    "Status" : "Running/Timed out/success/fail"
+                },
+
+                "calculation" : {
+                    "start_time" : "12:10",
+                    "end_time" : "12:15",
+                    "estimated_time" : "12:25",
+                    "stage": {
+                        "Added" : "None",
+                        "Started" : "None",
+                        "Downloaded" : "None",
+                        "Modelled" : "None",
+                        "Done" : "None"
+                    },
+                    "Status" : "Running/Timed out/success/fail"
+                }
+            }
+    
+        },
+        {
+            "model_id" : "Model 2",
+            "architecture" : "Lambda",
+            "process" : {
+                "modelling" : {
+                    "start_time" : "12:04",
+                    "end_time" : "12:15",
+                    "estimated_time" : "12:19",
+                    "stage" : {
+                        "Added" : "1",
+                        "Started" : "1",
+                        "Downloaded" : "1",
+                        "Modelled" : "1",
+                        "Done" : "1"
+                    },
+                    "Status" : "Running/Timed out/success/fail"
+                },
+                "calculation" : {
+                    "start_time" : "12:10",
+                    "end_time" : "12:15",
+                    "estimated_time" : "12:25",
+                    "stage": {
+                        "Added" : "0",
+                        "Started" : "None",
+                        "Downloaded" : "None",
+                        "Modelled" : "None",
+                        "Done" : "None"
+                    },
+                    "Status" : "Running/Timed out/success/fail"
+                }
+            }
+    
+        },
+        {
+            "model_id" : "Model 3",
+            "architecture" : "Lambda",
+            "process" : {
+                "modelling" : {
+                    "start_time" : "12:04",
+                    "end_time" : "12:16",
+                    "estimated_time" : "12:17",
+                    "stage" : {
+                        "Added" : "0",
+                        "Started" : "1",
+                        "Downloaded" : "1",
+                        "Modelled" : "0",
+                        "Done" : "1"
+                    },
+                    "Status" : "Running/Timed out/success/fail"
+                },
+                "calculation" : {
+                    "start_time" : "12:10",
+                    "end_time" : "12:15",
+                    "estimated_time" : "12:25",
+                    "stage": {
+                        "Added" : "0",
+                        "Started" : "None",
+                        "Downloaded" : "None",
+                        "Modelled" : "None",
+                        "Done" : "None"
+                    },
+                    "Status" : "Running/Timed out/success/fail"
+                }
+            }
+        
+        }]
+        
+    }
